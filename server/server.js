@@ -1,7 +1,7 @@
 const express = require('express');
 const logger = require('./middleware/logger');
-const projects = require('./routes/projects');
-const actions = require('./routes/actions');
+const projects = require('../modules/projects/routes');
+const actions = require('../modules/actions/routes');
 
 const server = express();
 server.use(express.json());

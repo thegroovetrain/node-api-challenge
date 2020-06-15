@@ -8,9 +8,9 @@
 
 const express = require('express');
 const router = express.Router();
-const projectModel = require('../data/helpers/projectModel');
-const validateProjectId = require('../middleware/validateProjectId');
-const validateProject = require('../middleware/validateProject');
+const projectModel = require('../../data/helpers/projectModel');
+const validateProjectId = require('./middleware/validateProjectId');
+const validateProject = require('./middleware/validateProject');
 
 
 router.get('/', (req, res) => {

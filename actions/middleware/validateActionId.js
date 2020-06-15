@@ -1,4 +1,4 @@
-const actionModel = require('../data/helpers/actionModel');
+const actionModel = require('../../../data/helpers/actionModel');
 
 module.exports = () => (req, res, next) => {
     actionModel.get(req.params.id).then(action => {

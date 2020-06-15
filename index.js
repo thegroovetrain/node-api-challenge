@@ -14,7 +14,7 @@ Go code!
 */
 // lol -es
 
-const server = require('./server');
+const server = require('./server/server');
 
 const PORT = 5000;
 
